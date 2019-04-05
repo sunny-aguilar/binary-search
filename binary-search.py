@@ -14,4 +14,4 @@ def binary_search(list, item):
 
   return None
 
-my_list
+my_list = [1,3,5,7,9]
