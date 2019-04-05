@@ -6,3 +6,4 @@ def binary_search(list, item):
     mid = (low + high)
     guess = list[mid]
     if guess == item:
+      return mid
