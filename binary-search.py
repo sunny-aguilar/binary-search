@@ -8,3 +8,5 @@ def binary_search(list, item):
     if guess == item:
       return mid
     if guess > item:
+      high = mid - 1
+    else:
