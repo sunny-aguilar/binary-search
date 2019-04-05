@@ -4,3 +4,4 @@ def binary_search(list, item):
 
   while low <= high:
     mid = (low + high)
+    guess = list[mid]
