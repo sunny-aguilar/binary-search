@@ -7,3 +7,4 @@ def binary_search(list, item):
     guess = list[mid]
     if guess == item:
       return mid
+    if guess > item:
